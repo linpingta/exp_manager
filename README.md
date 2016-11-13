@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/linpingta/exp_manager.svg?branch=master)](https://travis-ci.org/linpingta/exp_manager.svg?branch=master)
+
 # exp_manager
  exp_manager comes from parent project: tools
 
@@ -19,4 +21,3 @@
           python exp_manager.py
           python test_exp_manager.py
 
-https://travis-ci.org/linpingta/exp_manager.svg?branch=master
