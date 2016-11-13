@@ -1,5 +1,5 @@
 # exp_manager
-Sub project : exp_manager from parent project: tools
+ exp_manager comes from parent project: tools
 
 ###实验服务类，支持优雅的实验管理和日志定制
 
