@@ -158,7 +158,7 @@ class ExpManager(object):
 #					if campaign_end_info is not None:
 #						exp.campaign_end_numbers = [ int(end_number) for end_number in campaign_end_info.text.split(',') ]
 					cls.strategy_info_dict[name] = exp
-			except Exception, e:
+			except Exception as e:
 				raise e
 
 
