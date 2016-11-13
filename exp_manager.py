@@ -182,19 +182,19 @@ if __name__ == '__main__':
 			user_info = OrderedDict(user_id=1, account_id=123, campaign_id=1234)
 			if exp and exp.has_user(user_info):
 				# main logic
-				print 'user exists in exp'
+				print('user exists in exp')
 				logger.debug('user_id[%d] account_id[%d] campaign_id[%d] participate exp' % tuple(user_info.values()))
 			else:
-				print 'user not exists in exp'
+				print('user not exists in exp')
 				logger.debug('user_id[%d] account_id[%d] campaign_id[%d] dont participate exp' % tuple(user_info.values()))
 
 			user_info = OrderedDict(user_id=1, account_id=111, campaign_id=1111)
 			if exp and exp.has_user(user_info):
 				# main logic
-				print 'user exists in exp'
+				print('user exists in exp')
 				logger.debug('user_id[%d] account_id[%d] campaign_id[%d] participate exp' % tuple(user_info.values()))
 			else:
-				print 'user not exists in exp'
+				print('user not exists in exp')
 				logger.debug('user_id[%d] account_id[%d] campaign_id[%d] dont participate exp' % tuple(user_info.values()))
 
 		# usage
@@ -203,9 +203,9 @@ if __name__ == '__main__':
 			user_info = OrderedDict(user_id=1, account_id=123, campaign_id=1234)
 			if exp and exp.has_user(user_info):
 				# main logic
-				print 'user exists in exp'
+				print('user exists in exp')
 				logger.debug('user_id[%d] account_id[%d] campaign_id[%d] participate exp' % tuple(user_info.values()))
 			else:
-				print 'user not exists in exp'
+				print('user not exists in exp')
 				logger.debug('user_id[%d] account_id[%d] campaign_id[%d] dont participate exp' % tuple(user_info.values()))
 		logger.info('work ends')
