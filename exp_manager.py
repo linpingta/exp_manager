@@ -119,7 +119,7 @@ class ExpManager(object):
 		try:
 			tree = ET.ElementTree(file=filename)
 			root = tree.getroot()
-		except IOError, e:
+		except IOError as e:
 			raise e
 		else:
 			try:
